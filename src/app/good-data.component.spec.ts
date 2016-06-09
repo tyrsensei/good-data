@@ -15,8 +15,8 @@ describe('App: GoodData', () => {
     expect(app).toBeTruthy();
   }));
 
-  it('should have as title \'good-data works!\'',
+  it('should have as appTitle \'GooDatA\'',
       inject([GoodDataAppComponent], (app: GoodDataAppComponent) => {
-    expect(app.title).toEqual('good-data works!');
+    expect(app.appTitle).toEqual('GooDatA');
   }));
 });

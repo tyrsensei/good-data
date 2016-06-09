@@ -3,16 +3,23 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  '@angular2-material': 'vendor/@angular2-material'
+  '@angular2-material': 'vendor/@angular2-material',
+  'dragula': 'vendor/dragula/dist/dragula.js',
+  'ng2-dragula': 'vendor/ng2-dragula'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  'ng2-dragula': { format: 'cjs', defaultExtension: 'js', main: 'ng2-dragula' }
 };
 
 const materialPkgs:string[] = [
   'core',
-  'icon'
+  'icon',
+  'card',
+  'toolbar',
+  'list',
+  'button'
 ];
 
 materialPkgs.forEach((pkg) => {
