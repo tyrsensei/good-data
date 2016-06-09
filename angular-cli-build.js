@@ -14,6 +14,7 @@ module.exports = function(defaults) {
       '@angular/**/*.+(js|js.map)',
       '@angular2-material/**/*',
       'dragula/dist/dragula.js',
+      'dragula/dist/dragula.css',
       'ng2-dragula/ng2-dragula.js',
       'ng2-dragula/src/**/*.js'
     ]

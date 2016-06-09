@@ -4,6 +4,32 @@
 <div style="padding: 20px;">
   <md-card>
     <md-list>
+      <h3 md-subheader>Données</h3>
+      <md-list-item [dragula]='"bag-one"'>
+        Data 1
+        <button md-icon-button (click)="null">
+          <md-icon>info</md-icon>
+        </button>
+      </md-list-item>
+      <md-list-item [dragula]='"bag-one"'>
+        Data 2
+        <button md-icon-button (click)="null">
+          <md-icon>info</md-icon>
+        </button>
+      </md-list-item>
+      <md-list-item [dragula]='"bag-one"'>
+        Data 3
+        <button md-icon-button (click)="null">
+          <md-icon>info</md-icon>
+        </button>
+      </md-list-item>
+    </md-list>
+  </md-card>
+</div>
+<div style="padding: 20px;">
+  <md-card>
+    <md-list>
+      <h3 md-subheader>Données</h3>
       <md-list-item [dragula]='"bag-one"'>
         Data 1
         <button md-icon-button (click)="null">
